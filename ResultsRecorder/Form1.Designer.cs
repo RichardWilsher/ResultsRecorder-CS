@@ -30,518 +30,205 @@ namespace ResultsRecorder
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Result6Text = new System.Windows.Forms.TextBox();
+            this.Result5Text = new System.Windows.Forms.TextBox();
+            this.Result4Text = new System.Windows.Forms.TextBox();
+            this.Result3Text = new System.Windows.Forms.TextBox();
+            this.Result2Text = new System.Windows.Forms.TextBox();
+            this.Result1Text = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Second6Combo = new System.Windows.Forms.ComboBox();
+            this.First6Combo = new System.Windows.Forms.ComboBox();
+            this.Name6Text = new System.Windows.Forms.TextBox();
+            this.Code6Text = new System.Windows.Forms.TextBox();
+            this.Second5Combo = new System.Windows.Forms.ComboBox();
+            this.First5Combo = new System.Windows.Forms.ComboBox();
+            this.Name5Text = new System.Windows.Forms.TextBox();
+            this.Code5Text = new System.Windows.Forms.TextBox();
+            this.Second4Combo = new System.Windows.Forms.ComboBox();
+            this.First4Combo = new System.Windows.Forms.ComboBox();
+            this.Name4Text = new System.Windows.Forms.TextBox();
+            this.Code4Text = new System.Windows.Forms.TextBox();
+            this.Second3Combo = new System.Windows.Forms.ComboBox();
+            this.First3Combo = new System.Windows.Forms.ComboBox();
+            this.Name3Text = new System.Windows.Forms.TextBox();
+            this.Code3Text = new System.Windows.Forms.TextBox();
+            this.Second2Combo = new System.Windows.Forms.ComboBox();
+            this.First2Combo = new System.Windows.Forms.ComboBox();
+            this.Name2Text = new System.Windows.Forms.TextBox();
+            this.Code2Text = new System.Windows.Forms.TextBox();
+            this.Second1Combo = new System.Windows.Forms.ComboBox();
+            this.First1Combo = new System.Windows.Forms.ComboBox();
+            this.Name1Text = new System.Windows.Forms.TextBox();
+            this.Code1Text = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.Result6Text);
+            this.panel1.Controls.Add(this.Result5Text);
+            this.panel1.Controls.Add(this.Result4Text);
+            this.panel1.Controls.Add(this.Result3Text);
+            this.panel1.Controls.Add(this.Result2Text);
+            this.panel1.Controls.Add(this.Result1Text);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.comboBox12);
-            this.panel1.Controls.Add(this.comboBox13);
-            this.panel1.Controls.Add(this.textBox11);
-            this.panel1.Controls.Add(this.textBox12);
-            this.panel1.Controls.Add(this.comboBox10);
-            this.panel1.Controls.Add(this.comboBox11);
-            this.panel1.Controls.Add(this.textBox9);
-            this.panel1.Controls.Add(this.textBox10);
-            this.panel1.Controls.Add(this.comboBox8);
-            this.panel1.Controls.Add(this.comboBox9);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox8);
-            this.panel1.Controls.Add(this.comboBox6);
-            this.panel1.Controls.Add(this.comboBox7);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.comboBox4);
-            this.panel1.Controls.Add(this.comboBox5);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.comboBox3);
-            this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.Second6Combo);
+            this.panel1.Controls.Add(this.First6Combo);
+            this.panel1.Controls.Add(this.Name6Text);
+            this.panel1.Controls.Add(this.Code6Text);
+            this.panel1.Controls.Add(this.Second5Combo);
+            this.panel1.Controls.Add(this.First5Combo);
+            this.panel1.Controls.Add(this.Name5Text);
+            this.panel1.Controls.Add(this.Code5Text);
+            this.panel1.Controls.Add(this.Second4Combo);
+            this.panel1.Controls.Add(this.First4Combo);
+            this.panel1.Controls.Add(this.Name4Text);
+            this.panel1.Controls.Add(this.Code4Text);
+            this.panel1.Controls.Add(this.Second3Combo);
+            this.panel1.Controls.Add(this.First3Combo);
+            this.panel1.Controls.Add(this.Name3Text);
+            this.panel1.Controls.Add(this.Code3Text);
+            this.panel1.Controls.Add(this.Second2Combo);
+            this.panel1.Controls.Add(this.First2Combo);
+            this.panel1.Controls.Add(this.Name2Text);
+            this.panel1.Controls.Add(this.Code2Text);
+            this.panel1.Controls.Add(this.Second1Combo);
+            this.panel1.Controls.Add(this.First1Combo);
+            this.panel1.Controls.Add(this.Name1Text);
+            this.panel1.Controls.Add(this.Code1Text);
             this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Location = new System.Drawing.Point(15, 11);
+            this.panel1.Location = new System.Drawing.Point(14, 27);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(697, 360);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // comboBox1
+            // label6
             // 
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(179, 14);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(378, 21);
-            this.comboBox1.TabIndex = 0;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(477, 38);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(100, 13);
+            this.label6.TabIndex = 41;
+            this.label6.Text = "Assessment Grades";
             // 
-            // textBox1
+            // label5
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(46, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(73, 20);
-            this.textBox1.TabIndex = 1;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(617, 59);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "Result";
             // 
-            // textBox2
+            // label4
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(135, 46);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(299, 20);
-            this.textBox2.TabIndex = 2;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(533, 60);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 13);
+            this.label4.TabIndex = 39;
+            this.label4.Text = "Second";
             // 
-            // comboBox2
+            // label3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox2.Location = new System.Drawing.Point(452, 47);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(86, 21);
-            this.comboBox2.TabIndex = 3;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(453, 59);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.TabIndex = 38;
+            this.label3.Text = "First";
             // 
-            // comboBox3
+            // label2
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox3.Location = new System.Drawing.Point(551, 48);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(92, 21);
-            this.comboBox3.TabIndex = 4;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(136, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 13);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Module Name:";
             // 
-            // comboBox4
+            // label1
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox4.Location = new System.Drawing.Point(551, 87);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(92, 21);
-            this.comboBox4.TabIndex = 8;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(47, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 13);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Model Code:";
             // 
-            // comboBox5
+            // Result6Text
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox5.Location = new System.Drawing.Point(452, 86);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(86, 21);
-            this.comboBox5.TabIndex = 7;
+            this.Result6Text.Location = new System.Drawing.Point(620, 277);
+            this.Result6Text.Name = "Result6Text";
+            this.Result6Text.Size = new System.Drawing.Size(51, 20);
+            this.Result6Text.TabIndex = 35;
             // 
-            // textBox3
+            // Result5Text
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(135, 85);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(299, 20);
-            this.textBox3.TabIndex = 6;
+            this.Result5Text.Location = new System.Drawing.Point(620, 237);
+            this.Result5Text.Name = "Result5Text";
+            this.Result5Text.Size = new System.Drawing.Size(51, 20);
+            this.Result5Text.TabIndex = 34;
             // 
-            // textBox4
+            // Result4Text
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(46, 85);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(73, 20);
-            this.textBox4.TabIndex = 5;
+            this.Result4Text.Location = new System.Drawing.Point(620, 197);
+            this.Result4Text.Name = "Result4Text";
+            this.Result4Text.Size = new System.Drawing.Size(51, 20);
+            this.Result4Text.TabIndex = 33;
             // 
-            // comboBox6
+            // Result3Text
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox6.Location = new System.Drawing.Point(551, 125);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(92, 21);
-            this.comboBox6.TabIndex = 12;
+            this.Result3Text.Location = new System.Drawing.Point(620, 153);
+            this.Result3Text.Name = "Result3Text";
+            this.Result3Text.Size = new System.Drawing.Size(51, 20);
+            this.Result3Text.TabIndex = 32;
             // 
-            // comboBox7
+            // Result2Text
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox7.Location = new System.Drawing.Point(452, 124);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(86, 21);
-            this.comboBox7.TabIndex = 11;
+            this.Result2Text.Location = new System.Drawing.Point(620, 115);
+            this.Result2Text.Name = "Result2Text";
+            this.Result2Text.Size = new System.Drawing.Size(51, 20);
+            this.Result2Text.TabIndex = 31;
             // 
-            // textBox5
+            // Result1Text
             // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(135, 123);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(299, 20);
-            this.textBox5.TabIndex = 10;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(46, 123);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(73, 20);
-            this.textBox6.TabIndex = 9;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox8.Location = new System.Drawing.Point(551, 168);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(92, 21);
-            this.comboBox8.TabIndex = 16;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox9.Location = new System.Drawing.Point(452, 167);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(86, 21);
-            this.comboBox9.TabIndex = 15;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(135, 166);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(299, 20);
-            this.textBox7.TabIndex = 14;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Enabled = false;
-            this.textBox8.Location = new System.Drawing.Point(46, 166);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(73, 20);
-            this.textBox8.TabIndex = 13;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox10.Location = new System.Drawing.Point(551, 209);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(92, 21);
-            this.comboBox10.TabIndex = 20;
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox11.Location = new System.Drawing.Point(452, 208);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(86, 21);
-            this.comboBox11.TabIndex = 19;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Enabled = false;
-            this.textBox9.Location = new System.Drawing.Point(135, 207);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(299, 20);
-            this.textBox9.TabIndex = 18;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Enabled = false;
-            this.textBox10.Location = new System.Drawing.Point(46, 207);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(73, 20);
-            this.textBox10.TabIndex = 17;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox12.Location = new System.Drawing.Point(551, 249);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(92, 21);
-            this.comboBox12.TabIndex = 24;
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
-            "A+",
-            "A",
-            "A-",
-            "B+",
-            "B",
-            "B-",
-            "C+",
-            "C",
-            "C-",
-            "D+",
-            "D",
-            "D-",
-            "F+",
-            "F",
-            "F-",
-            "G"});
-            this.comboBox13.Location = new System.Drawing.Point(452, 248);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(86, 21);
-            this.comboBox13.TabIndex = 23;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Enabled = false;
-            this.textBox11.Location = new System.Drawing.Point(135, 247);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(299, 20);
-            this.textBox11.TabIndex = 22;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Enabled = false;
-            this.textBox12.Location = new System.Drawing.Point(46, 247);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(73, 20);
-            this.textBox12.TabIndex = 21;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(32, 318);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 31);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "&First Year";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(161, 318);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 31);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "&Second Year";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(289, 318);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 31);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "&Third Year";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(435, 318);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 31);
-            this.button4.TabIndex = 28;
-            this.button4.Text = "Final &Award";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Result1Text.Location = new System.Drawing.Point(620, 76);
+            this.Result1Text.Name = "Result1Text";
+            this.Result1Text.Size = new System.Drawing.Size(51, 20);
+            this.Result1Text.TabIndex = 30;
             // 
             // button5
             // 
@@ -553,53 +240,578 @@ namespace ResultsRecorder
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(435, 318);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(103, 31);
+            this.button4.TabIndex = 28;
+            this.button4.Text = "Final &Award";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(289, 318);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(103, 31);
+            this.button3.TabIndex = 27;
+            this.button3.Text = "&Third Year";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(161, 318);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(103, 31);
+            this.button2.TabIndex = 26;
+            this.button2.Text = "&Second Year";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(32, 318);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(103, 31);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "&First Year";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // Second6Combo
+            // 
+            this.Second6Combo.FormattingEnabled = true;
+            this.Second6Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.Second6Combo.Location = new System.Drawing.Point(536, 278);
+            this.Second6Combo.Name = "Second6Combo";
+            this.Second6Combo.Size = new System.Drawing.Size(69, 21);
+            this.Second6Combo.TabIndex = 24;
+            this.Second6Combo.SelectedIndexChanged += new System.EventHandler(this.comboBox12_SelectedIndexChanged);
+            // 
+            // First6Combo
+            // 
+            this.First6Combo.FormattingEnabled = true;
+            this.First6Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.First6Combo.Location = new System.Drawing.Point(456, 278);
+            this.First6Combo.Name = "First6Combo";
+            this.First6Combo.Size = new System.Drawing.Size(63, 21);
+            this.First6Combo.TabIndex = 23;
+            // 
+            // Name6Text
+            // 
+            this.Name6Text.Enabled = false;
+            this.Name6Text.Location = new System.Drawing.Point(139, 277);
+            this.Name6Text.Name = "Name6Text";
+            this.Name6Text.Size = new System.Drawing.Size(299, 20);
+            this.Name6Text.TabIndex = 22;
+            // 
+            // Code6Text
+            // 
+            this.Code6Text.Enabled = false;
+            this.Code6Text.Location = new System.Drawing.Point(50, 277);
+            this.Code6Text.Name = "Code6Text";
+            this.Code6Text.Size = new System.Drawing.Size(73, 20);
+            this.Code6Text.TabIndex = 21;
+            // 
+            // Second5Combo
+            // 
+            this.Second5Combo.FormattingEnabled = true;
+            this.Second5Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.Second5Combo.Location = new System.Drawing.Point(536, 238);
+            this.Second5Combo.Name = "Second5Combo";
+            this.Second5Combo.Size = new System.Drawing.Size(69, 21);
+            this.Second5Combo.TabIndex = 20;
+            this.Second5Combo.SelectedIndexChanged += new System.EventHandler(this.comboBox10_SelectedIndexChanged);
+            // 
+            // First5Combo
+            // 
+            this.First5Combo.FormattingEnabled = true;
+            this.First5Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.First5Combo.Location = new System.Drawing.Point(456, 238);
+            this.First5Combo.Name = "First5Combo";
+            this.First5Combo.Size = new System.Drawing.Size(63, 21);
+            this.First5Combo.TabIndex = 19;
+            // 
+            // Name5Text
+            // 
+            this.Name5Text.Enabled = false;
+            this.Name5Text.Location = new System.Drawing.Point(139, 237);
+            this.Name5Text.Name = "Name5Text";
+            this.Name5Text.Size = new System.Drawing.Size(299, 20);
+            this.Name5Text.TabIndex = 18;
+            // 
+            // Code5Text
+            // 
+            this.Code5Text.Enabled = false;
+            this.Code5Text.Location = new System.Drawing.Point(50, 237);
+            this.Code5Text.Name = "Code5Text";
+            this.Code5Text.Size = new System.Drawing.Size(73, 20);
+            this.Code5Text.TabIndex = 17;
+            // 
+            // Second4Combo
+            // 
+            this.Second4Combo.FormattingEnabled = true;
+            this.Second4Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.Second4Combo.Location = new System.Drawing.Point(536, 197);
+            this.Second4Combo.Name = "Second4Combo";
+            this.Second4Combo.Size = new System.Drawing.Size(69, 21);
+            this.Second4Combo.TabIndex = 16;
+            this.Second4Combo.SelectedIndexChanged += new System.EventHandler(this.comboBox8_SelectedIndexChanged);
+            // 
+            // First4Combo
+            // 
+            this.First4Combo.FormattingEnabled = true;
+            this.First4Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.First4Combo.Location = new System.Drawing.Point(456, 197);
+            this.First4Combo.Name = "First4Combo";
+            this.First4Combo.Size = new System.Drawing.Size(63, 21);
+            this.First4Combo.TabIndex = 15;
+            // 
+            // Name4Text
+            // 
+            this.Name4Text.Enabled = false;
+            this.Name4Text.Location = new System.Drawing.Point(139, 196);
+            this.Name4Text.Name = "Name4Text";
+            this.Name4Text.Size = new System.Drawing.Size(299, 20);
+            this.Name4Text.TabIndex = 14;
+            // 
+            // Code4Text
+            // 
+            this.Code4Text.Enabled = false;
+            this.Code4Text.Location = new System.Drawing.Point(50, 196);
+            this.Code4Text.Name = "Code4Text";
+            this.Code4Text.Size = new System.Drawing.Size(73, 20);
+            this.Code4Text.TabIndex = 13;
+            // 
+            // Second3Combo
+            // 
+            this.Second3Combo.FormattingEnabled = true;
+            this.Second3Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.Second3Combo.Location = new System.Drawing.Point(536, 154);
+            this.Second3Combo.Name = "Second3Combo";
+            this.Second3Combo.Size = new System.Drawing.Size(69, 21);
+            this.Second3Combo.TabIndex = 12;
+            this.Second3Combo.SelectedIndexChanged += new System.EventHandler(this.comboBox6_SelectedIndexChanged);
+            // 
+            // First3Combo
+            // 
+            this.First3Combo.FormattingEnabled = true;
+            this.First3Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.First3Combo.Location = new System.Drawing.Point(456, 154);
+            this.First3Combo.Name = "First3Combo";
+            this.First3Combo.Size = new System.Drawing.Size(63, 21);
+            this.First3Combo.TabIndex = 11;
+            // 
+            // Name3Text
+            // 
+            this.Name3Text.Enabled = false;
+            this.Name3Text.Location = new System.Drawing.Point(139, 153);
+            this.Name3Text.Name = "Name3Text";
+            this.Name3Text.Size = new System.Drawing.Size(299, 20);
+            this.Name3Text.TabIndex = 10;
+            // 
+            // Code3Text
+            // 
+            this.Code3Text.Enabled = false;
+            this.Code3Text.Location = new System.Drawing.Point(50, 153);
+            this.Code3Text.Name = "Code3Text";
+            this.Code3Text.Size = new System.Drawing.Size(73, 20);
+            this.Code3Text.TabIndex = 9;
+            // 
+            // Second2Combo
+            // 
+            this.Second2Combo.FormattingEnabled = true;
+            this.Second2Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.Second2Combo.Location = new System.Drawing.Point(536, 116);
+            this.Second2Combo.Name = "Second2Combo";
+            this.Second2Combo.Size = new System.Drawing.Size(69, 21);
+            this.Second2Combo.TabIndex = 8;
+            this.Second2Combo.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
+            // 
+            // First2Combo
+            // 
+            this.First2Combo.FormattingEnabled = true;
+            this.First2Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.First2Combo.Location = new System.Drawing.Point(456, 116);
+            this.First2Combo.Name = "First2Combo";
+            this.First2Combo.Size = new System.Drawing.Size(63, 21);
+            this.First2Combo.TabIndex = 7;
+            // 
+            // Name2Text
+            // 
+            this.Name2Text.Enabled = false;
+            this.Name2Text.Location = new System.Drawing.Point(139, 115);
+            this.Name2Text.Name = "Name2Text";
+            this.Name2Text.Size = new System.Drawing.Size(299, 20);
+            this.Name2Text.TabIndex = 6;
+            // 
+            // Code2Text
+            // 
+            this.Code2Text.Enabled = false;
+            this.Code2Text.Location = new System.Drawing.Point(50, 115);
+            this.Code2Text.Name = "Code2Text";
+            this.Code2Text.Size = new System.Drawing.Size(73, 20);
+            this.Code2Text.TabIndex = 5;
+            // 
+            // Second1Combo
+            // 
+            this.Second1Combo.FormattingEnabled = true;
+            this.Second1Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.Second1Combo.Location = new System.Drawing.Point(536, 75);
+            this.Second1Combo.Name = "Second1Combo";
+            this.Second1Combo.Size = new System.Drawing.Size(69, 21);
+            this.Second1Combo.TabIndex = 4;
+            this.Second1Combo.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            // 
+            // First1Combo
+            // 
+            this.First1Combo.FormattingEnabled = true;
+            this.First1Combo.Items.AddRange(new object[] {
+            "A+",
+            "A",
+            "A-",
+            "B+",
+            "B",
+            "B-",
+            "C+",
+            "C",
+            "C-",
+            "D+",
+            "D",
+            "D-",
+            "F+",
+            "F",
+            "F-",
+            "G"});
+            this.First1Combo.Location = new System.Drawing.Point(456, 75);
+            this.First1Combo.Name = "First1Combo";
+            this.First1Combo.Size = new System.Drawing.Size(63, 21);
+            this.First1Combo.TabIndex = 3;
+            this.First1Combo.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // Name1Text
+            // 
+            this.Name1Text.Enabled = false;
+            this.Name1Text.Location = new System.Drawing.Point(139, 76);
+            this.Name1Text.Name = "Name1Text";
+            this.Name1Text.Size = new System.Drawing.Size(299, 20);
+            this.Name1Text.TabIndex = 2;
+            // 
+            // Code1Text
+            // 
+            this.Code1Text.Enabled = false;
+            this.Code1Text.Location = new System.Drawing.Point(50, 76);
+            this.Code1Text.Name = "Code1Text";
+            this.Code1Text.Size = new System.Drawing.Size(73, 20);
+            this.Code1Text.TabIndex = 1;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Computer Networks Engineering",
+            "Computer Systems Engineering",
+            "Computing",
+            "Graphics and Visualisation",
+            "Mobile Computing",
+            "Software Engineering",
+            "Web Technology & Security"});
+            this.comboBox1.Location = new System.Drawing.Point(193, 14);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(345, 21);
+            this.comboBox1.TabIndex = 0;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(136, 14);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 13);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "Pathway:";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.editToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(723, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.quitToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "&File";
+            // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.editToolStripMenuItem.Text = "&Edit";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Text = "&About";
+            // 
+            // quitToolStripMenuItem
+            // 
+            this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quitToolStripMenuItem.Text = "&Quit";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(723, 378);
+            this.ClientSize = new System.Drawing.Size(723, 404);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "UoN Results Recorder";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox Second6Combo;
+        private System.Windows.Forms.ComboBox First6Combo;
+        private System.Windows.Forms.TextBox Name6Text;
+        private System.Windows.Forms.TextBox Code6Text;
+        private System.Windows.Forms.ComboBox Second5Combo;
+        private System.Windows.Forms.ComboBox First5Combo;
+        private System.Windows.Forms.TextBox Name5Text;
+        private System.Windows.Forms.TextBox Code5Text;
+        private System.Windows.Forms.ComboBox Second4Combo;
+        private System.Windows.Forms.ComboBox First4Combo;
+        private System.Windows.Forms.TextBox Name4Text;
+        private System.Windows.Forms.TextBox Code4Text;
+        private System.Windows.Forms.ComboBox Second3Combo;
+        private System.Windows.Forms.ComboBox First3Combo;
+        private System.Windows.Forms.TextBox Name3Text;
+        private System.Windows.Forms.TextBox Code3Text;
+        private System.Windows.Forms.ComboBox Second2Combo;
+        private System.Windows.Forms.ComboBox First2Combo;
+        private System.Windows.Forms.TextBox Name2Text;
+        private System.Windows.Forms.TextBox Code2Text;
+        private System.Windows.Forms.ComboBox Second1Combo;
+        private System.Windows.Forms.ComboBox First1Combo;
+        private System.Windows.Forms.TextBox Name1Text;
+        private System.Windows.Forms.TextBox Code1Text;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox Result1Text;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox Result6Text;
+        private System.Windows.Forms.TextBox Result5Text;
+        private System.Windows.Forms.TextBox Result4Text;
+        private System.Windows.Forms.TextBox Result3Text;
+        private System.Windows.Forms.TextBox Result2Text;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
 
